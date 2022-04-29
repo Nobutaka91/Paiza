@@ -1,0 +1,10 @@
+<?php
+  
+    $input_line =rtrim(fgets(STDIN));
+    $inputs = explode(" " , $input_line);
+     $M = $inputs[0];
+     $V = $inputs[1];
+     $F = $inputs[2];
+     $L = $M*$V**2/(2*$F);
+     echo $L;
+?>
