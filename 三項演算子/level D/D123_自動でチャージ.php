@@ -1,4 +1,5 @@
 <?php
+
     $balance = trim(fgets(STDIN));
     $result = addMoney($balance);
     echo $result;
