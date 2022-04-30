@@ -1,0 +1,10 @@
+<?php
+   
+    $string = rtrim(fgets(STDIN));
+    
+    $characterList = str_split($string);
+    
+    foreach($characterList as $character) {
+        echo $character."\n";
+    }
+?>
